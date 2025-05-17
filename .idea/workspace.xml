@@ -5,36 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b842271-1bd4-4289-adc4-a75b922508f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/jvm.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/maven.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Base/BaseUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/ConfigConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/driver/MobileDriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/EmailUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Influx-Grafana_Setup.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/InfluxDBLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/JSONLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/api/SampleAPITests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/mobile/SampleMobileTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/ui/HomePageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/RetryAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/Android-Emulator.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "garg-nikhil"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/garg-nikhil/SeleniumEnterprise",
+    "accountId": "f2a7a6aa-3c19-42bf-ac31-a8658fdac8a0"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
