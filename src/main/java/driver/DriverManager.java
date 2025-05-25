@@ -28,6 +28,7 @@ public class DriverManager {
         WebDriverManager.chromedriver().setup();
         ChromeDriver driver1 = new ChromeDriver();
         driver1.manage().window().maximize();
+        driver1.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 //        File file = driver1.getScreenshotAs(OutputType.FILE);
 //        try {
 //            FileUtils.copyFile(file,new File("./Screenshots/abc.jpeg"));

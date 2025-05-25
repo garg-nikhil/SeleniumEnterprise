@@ -10,9 +10,10 @@ import java.util.Properties;
 
 public class ConfigReader {
     private static Properties properties = new Properties();
+    private static String configPath = System.getProperty("user.dir") + "/src/main/java/config/config.properties";
 
     static {
-        try (FileInputStream fis = new FileInputStream("src/test/resources/config.properties")) {
+        try (FileInputStream fis = new FileInputStream(configPath)) {
             properties.load(fis);
         } catch (IOException e) {
             e.printStackTrace();

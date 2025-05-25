@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b842271-1bd4-4289-adc4-a75b922508f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/feature.files/PracticeBDDSyntax.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/stepDefs/PracticeBDDSyntax.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ExcelReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/LoggerUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Base/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/BaseUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/InfluxDBLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/InfluxDBLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ConfigReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/ui/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/ui/HomePageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.ExcelReader.executor&quot;: &quot;Run&quot;,
     &quot;Docker.utils/Dockerfile.executor&quot;: &quot;Run&quot;,
     &quot;Docker.utils/Influx-Grafana_Setup.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
@@ -76,10 +77,24 @@
       <recent name="C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\src\main\java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="utils" />
       <recent name="Base" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Automation/Projects/SeleniumFrameworkDesign/SampleAutomationEndToEnd/testng.xml">
+    <configuration name="ExcelReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.ExcelReader" />
+      <module name="EnterpriseSeleniumAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Automation/Projects/SeleniumFrameworkDesign/SampleAutomationEndToEnd/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EnterpriseSeleniumAutomation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -127,6 +142,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Automation/Projects/SeleniumFrameworkDesign/SampleAutomationEndToEnd/testng.xml" />
+        <item itemvalue="Application.ExcelReader" />
         <item itemvalue="Docker.utils/Influx-Grafana_Setup.yml: Compose Deployment" />
         <item itemvalue="Docker.utils/Dockerfile" />
         <item itemvalue="TestNG.HomePageTests.verifyActionsOnHomePage" />
