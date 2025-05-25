@@ -1,5 +1,6 @@
 package utils;
 
+import java.time.Instant;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -28,7 +29,7 @@ public class InfluxDBLogger {
         }
     }
 
-    public static void logTestResult(String testName, String status, long durationMs, String hostname, Object instance, String instanceName) {
+    public static void logTestResult(String testName, String status, String browser, long durationMs) {
         if (client == null) {
             System.err.println("⚠️ InfluxDB client not initialized, skipping logging.");
             return;
@@ -36,15 +37,14 @@ public class InfluxDBLogger {
 
         try (WriteApi writeApi = client.getWriteApi()) {
             Point point = Point
-                    .measurement("test_execution")
-                    .addTag("test", testName)
-                    .addField("status", status)
-                    .addField("duration", durationMs)
-                    .addField("Host Name",hostname)
-                    .addField(instance.toString(), (String) instance)
-                    .addField("instanceName",instanceName)
-                    //.addFields(Set<String>,instances)
-                    .time(System.currentTimeMillis(), WritePrecision.MS);
+                    .measurement("test_execution_v4")
+                    .addTag("testName", testName)                   // Test Case
+                    .addTag("browser", "Chrome")                    // Browser
+                    .addTag("device", "Android Emulator")           // Device (update dynamically if needed)
+                    .addTag("hostOS", System.getProperty("os.name"))// Host OS
+                    .addTag("status", status)                       // Status
+                    .addField("duration", durationMs)                 // Duration (MUST be numeric!)
+                    .time(Instant.now(), WritePrecision.MS);
 
             writeApi.writePoint(point);
         } catch (Exception e) {

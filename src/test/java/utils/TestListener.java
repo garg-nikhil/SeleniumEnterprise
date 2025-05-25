@@ -13,14 +13,14 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult result){
-        long duration = result.getEndMillis() - result.getStartMillis();
-        InfluxDBLogger.logTestResult(result.getTestName(), "Pass",duration, result.getHost(), result.getInstance(), result.getInstanceName());
+        //long duration = result.getEndMillis() - result.getStartMillis();
+        //InfluxDBLogger.logTestResult(result.getName(), "Pass", "Chrome", duration);
     }
 
     @Override
     public void onTestFailure(ITestResult result){
         long duration = result.getEndMillis() - result.getStartMillis();
-        InfluxDBLogger.logTestResult(result.getTestName(), "Fail",duration, result.getHost(), result.getInstance(), result.getInstanceName());
+        //InfluxDBLogger.logTestResult(result.getName(), "Fail", "Chrome", duration);
     }
 
     @Override

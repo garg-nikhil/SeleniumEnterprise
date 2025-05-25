@@ -1,22 +1,23 @@
 package Pages;
 
+import Base.BaseUI;
 import driver.DriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePage {
+public class HomePage extends BaseUI {
     WebDriver driver;
 
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//*[text()='Elements']")
     private WebElement ele;
 
-    @FindBy(xpath = "")
-    private WebElement home;
+    @FindBy(xpath = "//*[text()='Text Box']")
+    private WebElement textBoxBtn;
 
-    @FindBy(xpath = "")
-    private WebElement base;
+    @FindBy(xpath = "//*[text()='Forms']")
+    private WebElement forms;
 
     public HomePage(){
         this.driver = DriverManager.getDriver();
@@ -27,6 +28,10 @@ public class HomePage {
         driver.get("https://demoqa.com/");
     }
 
-
+    public void element(){
+        scrollToElement(ele);
+        ele.isDisplayed();
+        forms.isDisplayed();
+    }
 
 }

@@ -11,4 +11,9 @@ public class HomePageTests extends BaseTests {
     public void verifyActionsOnHomePage(){
         homePage.launchPage();
     }
+
+    @Test
+    public void verifyElements(){
+        homePage.element();
+    }
 }
