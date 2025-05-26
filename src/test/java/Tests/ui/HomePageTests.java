@@ -1,12 +1,12 @@
 package Tests.ui;
 
 import Base.BaseTests;
+import Base.BaseUI;
 import Pages.HomePage;
 import driver.DriverManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import utils.LoggerUtil;
@@ -28,52 +28,11 @@ public class HomePageTests extends BaseTests {
         homePage.launchPage();
         softAssert.assertEquals(driver.getCurrentUrl(),getProperty("baseUrl"));
         softAssert.assertEquals(driver.getTitle(),"DEMOQA");
-
-        verifyElementsBtn();
-        verifyAlertsFramesWindowsBtn();
-        verifyFormsButton();
-        verifyBanner();
-        verifyFooter();
+        verifyElement(homePage.Elements(),"elements", true);
+        verifyElement(homePage.getAlertsFramesWindows(), "Alerts, Frame & Windows button", true);
+        verifyElement(homePage.getFormsBtn(), "Forms", true);
+        verifyElement(homePage.getBanner(), "Banner", false);
+        verifyElement(homePage.getFooter(), "Footer", false);
         softAssert.assertAll();
-    }
-
-
-    private void verifyElementsBtn(){
-        homePage.element();
-        WebElement elements = homePage.Elements();
-        softAssert.assertTrue(elements.isDisplayed(),"Elements is not displaying");
-        softAssert.assertTrue(elements.isEnabled(),"Elements is not enabled");
-        log.info("Verifying element button");
-    }
-
-    private void verifyAlertsFramesWindowsBtn(){
-        WebElement alertsBtn = homePage.getAlertsFramesWindows();
-        softAssert.assertTrue(alertsBtn.isDisplayed(),"Alerts, Frame & Windows button is not displayed");
-        softAssert.assertTrue(alertsBtn.isEnabled(), "Alerts, Frame & Windows button is not enabled");
-        log.info("Verifying alerts frames button");
-    }
-
-    private void verifyFormsButton(){
-        WebElement formsBtn = homePage.getFormsBtn();
-        softAssert.assertTrue(formsBtn.isDisplayed(), "Forms button is not displayed");
-        softAssert.assertTrue(formsBtn.isEnabled(), "Forms button is not enabled");
-        log.info("Verifying forms button");
-    }
-
-    private void verifyBanner(){
-        WebElement banner = homePage.getBanner();
-        softAssert.assertTrue(banner.isDisplayed(), "Welcome banner is not displayed");
-        log.info("Verifying banner");
-    }
-
-    private void verifyFooter(){
-        WebElement footer = homePage.getFooter();
-        softAssert.assertTrue(footer.isDisplayed(), "Footer is not displayed");
-        softAssert.assertEquals(footer.getText(),"© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.");
-        log.info("verifying footer");
-    }
-
-    private void verifyAllElements(){
-        homePage.getWebElements();
     }
 }

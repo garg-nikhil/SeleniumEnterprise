@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b842271-1bd4-4289-adc4-a75b922508f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/LoggerUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/execution.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/execution.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Base/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/BaseUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/ui/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/ui/HomePageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +65,8 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Automation/Projects/SeleniumFrameworkDesign/SampleAutomationEndToEnd/src/test/java&quot;
+    &quot;last_directory_selection&quot;: &quot;C:/Automation/Projects/SeleniumFrameworkDesign/SampleAutomationEndToEnd/src/test/java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -142,10 +139,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Automation/Projects/SeleniumFrameworkDesign/SampleAutomationEndToEnd/testng.xml" />
-        <item itemvalue="Application.ExcelReader" />
-        <item itemvalue="Docker.utils/Influx-Grafana_Setup.yml: Compose Deployment" />
-        <item itemvalue="Docker.utils/Dockerfile" />
         <item itemvalue="TestNG.HomePageTests.verifyActionsOnHomePage" />
+        <item itemvalue="Application.ExcelReader" />
       </list>
     </recent_temporary>
   </component>

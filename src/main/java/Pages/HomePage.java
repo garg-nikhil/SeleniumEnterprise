@@ -3,12 +3,10 @@ package Pages;
 import Base.BaseUI;
 import driver.DriverManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.core.util.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import utils.ConfigReader;
 import utils.LoggerUtil;
 
 import java.util.ArrayList;
@@ -44,9 +42,6 @@ public class HomePage extends BaseUI {
         String url = getProperty("baseUrl");
         driver.get(url);
         log.info("Navigated to: "+url);
-    }
-
-    public void element(){
         scrollToElement(ele);
     }
 
