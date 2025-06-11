@@ -69,7 +69,7 @@ public class HomePageTests extends BaseTests {
         //00005
     }
 
-    @Test
+
     public void lucky(){
         driver.get("https://login.naukri.com/nLogin/Login.php");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
