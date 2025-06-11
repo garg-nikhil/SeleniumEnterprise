@@ -111,3 +111,215 @@ java.lang.NullPointerException: Cannot invoke "org.testng.asserts.SoftAssert.ass
 2025-05-26 11:52:23 [main] INFO  Base.BaseTests - Verified: Forms
 2025-05-26 11:52:23 [main] INFO  Base.BaseTests - Verified: Banner
 2025-05-26 11:52:24 [main] INFO  Base.BaseTests - Verified: Footer
+2025-05-29 15:38:57 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.113 (resolved driver for Chrome 136)
+2025-05-29 15:38:57 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe
+2025-05-29 15:39:00 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-05-29 15:39:05 [main] INFO  Tests.ui.HomePageTests - 30 May25
+2025-05-29 15:39:45 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.113 (resolved driver for Chrome 136)
+2025-05-29 15:39:45 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe
+2025-05-29 15:39:48 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-05-29 15:39:55 [main] INFO  Tests.ui.HomePageTests - 30 May25
+2025-05-29 15:40:53 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.113 (resolved driver for Chrome 136)
+2025-05-29 15:40:53 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe
+2025-05-29 15:40:56 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-05-29 15:41:04 [main] INFO  Tests.ui.HomePageTests - 30 May25
+2025-05-29 15:42:27 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.113 (resolved driver for Chrome 136)
+2025-05-29 15:42:27 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe
+2025-05-29 15:42:31 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-05-29 15:42:44 [main] INFO  Tests.ui.HomePageTests - 30 May25
+2025-05-29 15:43:26 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.113 (resolved driver for Chrome 136)
+2025-05-29 15:43:26 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe
+2025-05-29 15:43:29 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-05-29 15:43:36 [main] INFO  Tests.ui.HomePageTests - 30 May25
+2025-05-29 15:44:06 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.113 (resolved driver for Chrome 136)
+2025-05-29 15:44:06 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe
+2025-05-29 15:44:09 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-05-29 15:44:17 [main] INFO  Tests.ui.HomePageTests - 30 May25
+2025-05-29 15:45:51 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.113 (resolved driver for Chrome 136)
+2025-05-29 15:45:51 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe
+2025-05-29 15:45:55 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-05-29 15:46:02 [main] INFO  Tests.ui.HomePageTests - 30 May25
+2025-05-29 16:08:55 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.113 (resolved driver for Chrome 136)
+2025-05-29 16:08:55 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe
+2025-05-29 16:09:00 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-05-29 16:09:44 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.113 (resolved driver for Chrome 136)
+2025-05-29 16:09:45 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe
+2025-05-29 16:09:51 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-05-29 16:10:38 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.113 (resolved driver for Chrome 136)
+2025-05-29 16:10:38 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe
+2025-05-29 16:10:41 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-05-29 16:10:45 [main] INFO  Tests.ui.HomePageTests - io.restassured.internal.RestAssuredResponseImpl@58601e7a
+2025-05-29 16:11:35 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.113 (resolved driver for Chrome 136)
+2025-05-29 16:11:35 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe
+2025-05-29 16:11:39 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-05-29 16:11:42 [main] INFO  Tests.ui.HomePageTests - {
+    "error": "415 Unsupported Media Type. The 415 status code indicates that the origin server is refusing to service the request because the payload is in a format not supported by this method on the target resource. One of the examples of getting 415 would be sending a request with a Content-Type header which is not equal to application/json"
+}
+2025-05-29 16:12:40 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.113 (resolved driver for Chrome 136)
+2025-05-29 16:12:40 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe
+2025-05-29 16:12:46 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-05-29 16:12:51 [main] INFO  Tests.ui.HomePageTests - {
+    "id": "ff80818196f2a23f01971ba335d85789",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-05-29T10:42:50.456+00:00",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+2025-05-29 16:17:52 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.113 (resolved driver for Chrome 136)
+2025-05-29 16:17:52 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe
+2025-05-29 16:17:56 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-05-29 16:17:59 [main] INFO  Tests.ui.HomePageTests - {
+    "id": "ff80818196f2a23f01971ba7ebbe57ad",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-05-29T10:47:59.166+00:00",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+2025-06-05 21:37:25 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-05 21:37:25 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win64/chromedriver-win64.zip
+2025-06-05 21:37:26 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-06-05 21:37:27 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-05 21:37:30 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-06-05 21:38:33 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-05 21:38:33 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-05 21:38:35 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-06-05 21:39:08 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-05 21:39:08 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-05 21:39:09 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-06-05 21:41:45 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-05 21:41:45 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-05 21:41:47 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-06-05 21:44:54 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-05 21:44:54 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-05 21:44:56 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-06-05 21:45:22 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-05 21:45:22 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-05 21:45:24 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-06-05 21:46:48 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-05 21:46:48 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-05 21:46:50 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-06-07 09:39:56 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 09:39:56 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 09:40:00 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-06-07 09:41:26 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.68 (resolved driver for Chrome 137)
+2025-06-07 09:41:27 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-07 09:41:29 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-06-11 09:49:17 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 09:49:17 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.70/win64/chromedriver-win64.zip
+2025-06-11 09:49:21 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-06-11 09:49:21 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 09:49:24 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-06-11 10:05:37 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 10:05:37 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 10:05:39 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-06-11 10:06:05 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 10:06:05 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 10:06:06 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-06-11 10:07:09 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 10:07:09 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 10:07:10 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-06-11 10:07:38 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 10:07:38 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 10:07:39 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-06-11 10:08:22 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 10:08:22 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 10:08:24 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+2025-06-11 10:15:34 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 10:15:34 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 10:15:36 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\src\test\resources\testSuites\NaukriUpdate.xml
+
+2025-06-11 10:16:10 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 10:16:10 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 10:16:12 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\src\test\resources\testSuites\NaukriUpdate.xml
+
+2025-06-11 10:18:54 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 10:18:54 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 10:18:56 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\src\test\resources\testSuites\NaukriUpdate.xml
+
+2025-06-11 10:38:16 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 10:38:16 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 10:38:17 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\src\test\resources\testSuites\NaukriUpdate.xml
+
+2025-06-11 10:41:05 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 10:41:05 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 10:41:07 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\src\test\resources\testSuites\NaukriUpdate.xml
+
+2025-06-11 10:46:53 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 10:46:53 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 10:46:55 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\src\test\resources\testSuites\NaukriUpdate.xml
+
+2025-06-11 10:49:39 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 10:49:39 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 10:49:41 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\src\test\resources\testSuites\NaukriUpdate.xml
+

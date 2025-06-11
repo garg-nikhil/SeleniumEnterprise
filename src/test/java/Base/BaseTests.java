@@ -21,7 +21,7 @@ public class BaseTests {
 
     @AfterClass
     public void tearDown(){
-       DriverManager.quitDriver();
+       //DriverManager.quitDriver();
     }
 
     public void verifyElement(WebElement element, String elementName, boolean checkEnabled){
