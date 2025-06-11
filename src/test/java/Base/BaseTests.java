@@ -14,6 +14,9 @@ public class BaseTests {
     private final SoftAssert softAssert = new SoftAssert();
     private static final Logger log = LoggerUtil.getLogger(BaseTests.class);
 
+    public BaseTests(){
+
+    }
     @BeforeClass
     public void setup(){
         driver =  DriverManager.getDriver();
