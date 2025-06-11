@@ -1,6 +1,7 @@
 package Base;
 
 import driver.DriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,6 +20,7 @@ public class BaseTests {
 
   @BeforeClass
   public void setup() {
+    WebDriverManager.chromedriver().setup();
     driver = new ChromeDriver();
     //driver = DriverManager.getDriver();
   }
