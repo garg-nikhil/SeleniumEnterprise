@@ -1,5 +1,6 @@
 package Tests.ui;
 
+import Base.BaseTests;
 import driver.DriverManager;
 import net.bytebuddy.pool.TypePool;
 import org.openqa.selenium.By;
@@ -10,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class NaukriProfileUpdate {
+public class NaukriProfileUpdate extends BaseTests {
     WebDriver driver;
 
     NaukriProfileUpdate(){

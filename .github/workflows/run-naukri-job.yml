@@ -27,4 +27,5 @@ jobs:
           restore-keys: ${{ runner.os }}-maven
 
       - name: Run NaukriUpdate.xml tests
-        run: mvn test -DsuiteXmlFile=Tests/ui/NaukriProfileUpdate.xml
+        run: mvn clean install -DsuiteXmlFile=Tests/ui/NaukriProfileUpdate.xml
+        #run: mvn test -DsuiteXmlFile=Tests/ui/NaukriProfileUpdate.xml
