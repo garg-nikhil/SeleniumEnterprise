@@ -6,28 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d526bcef-ede0-4b95-badd-9b78c9edb406" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/execution.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/execution.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Base/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/BaseUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/ConfigConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ConfigConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driver/MobileDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/MobileDriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/CountOccurence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/CountOccurence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/EmailUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/EmailUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ExcelReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/InfluxDBLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/InfluxDBLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/JSONLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/JSONLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/LoggerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/LoggerUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PracticeJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PracticeJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/api/SampleAPITests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/api/SampleAPITests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/mobile/SampleMobileTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/mobile/SampleMobileTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/ui/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/ui/HomePageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/ui/NaukriProfileUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/ui/NaukriProfileUpdate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/RetryAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/RetryAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +43,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Automation/Projects/SeleniumFrameworkDesign/SampleAutomationEndToEnd"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">

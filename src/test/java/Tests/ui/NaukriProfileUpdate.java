@@ -13,11 +13,12 @@ public class NaukriProfileUpdate extends BaseTests {
   WebDriver driver;
 
   public NaukriProfileUpdate() {
-    this.driver = DriverManager.getDriver();
+    //this.driver = DriverManager.getDriver();
   }
 
   @Test
   public void UpdateNaukriProfile() {
+    driver = DriverManager.getDriver();
     driver.get("https://login.naukri.com/nLogin/Login.php");
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     //        String label = "I'm Feeling Lucky";
