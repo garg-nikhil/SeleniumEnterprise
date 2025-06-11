@@ -1,4 +1,3 @@
 package Tests.mobile;
 
-public class SampleMobileTests {
-}
+public class SampleMobileTests {}

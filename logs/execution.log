@@ -325,3 +325,17 @@ java.lang.NullPointerException: Cannot invoke "org.testng.asserts.SoftAssert.ass
 
 2025-06-11 11:19:23 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
 2025-06-11 11:19:23 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 11:48:34 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 11:48:34 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 11:50:30 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 11:50:30 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 11:52:19 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 11:52:20 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 11:58:32 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 11:58:32 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 12:00:46 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 12:00:46 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 12:01:15 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 12:01:15 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-11 12:04:12 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 12:04:12 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe

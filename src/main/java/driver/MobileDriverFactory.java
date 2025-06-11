@@ -1,24 +1,26 @@
-//package driver;
+// package driver;
 //
-//import io.appium.java_client.android.AndroidDriver;
-//import io.appium.java_client.ios.IOSDriver;
-//import org.openqa.selenium.remote.DesiredCapabilities;
+// import io.appium.java_client.android.AndroidDriver;
+// import io.appium.java_client.ios.IOSDriver;
+// import org.openqa.selenium.remote.DesiredCapabilities;
 //
-//import java.net.MalformedURLException;
-//import java.net.URL;
+// import java.net.MalformedURLException;
+// import java.net.URL;
 //
-//public class MobileDriverFactory {
+// public class MobileDriverFactory {
 //
 //    private static ThreadLocal<Object> driver = new ThreadLocal<>();
 //
-//    public static Object getDriver(String platform, boolean useRealDevice) throws MalformedURLException {
+//    public static Object getDriver(String platform, boolean useRealDevice) throws
+// MalformedURLException {
 //        if (driver.get() == null) {
 //            driver.set(createDriver(platform, useRealDevice));
 //        }
 //        return driver.get();
 //    }
 //
-//    private static Object createDriver(String platform, boolean useRealDevice) throws MalformedURLException {
+//    private static Object createDriver(String platform, boolean useRealDevice) throws
+// MalformedURLException {
 //        DesiredCapabilities caps = new DesiredCapabilities();
 //
 //        if ("android".equalsIgnoreCase(platform)) {
@@ -56,5 +58,5 @@
 //            driver.remove();
 //        }
 //    }
-//}
+// }
 //
