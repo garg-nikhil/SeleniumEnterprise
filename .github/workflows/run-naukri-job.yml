@@ -1,11 +1,11 @@
 name: Run Naukri Update Test Every 30 Mins from 6 AM IST
 
-on:
-  schedule:
-    - cron: '0,30 * * * *'  # Every 30 minutes
-  workflow_dispatch:
+ #on:
+    #schedule:
+   # - cron: '0,30 * * * *'  # Every 30 minutes
+  #workflow_dispatch:
 
-jobs:
+#jobs:
   run-tests:
     runs-on: ubuntu-latest
 
