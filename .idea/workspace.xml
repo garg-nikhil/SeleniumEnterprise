@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d526bcef-ede0-4b95-badd-9b78c9edb406" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/run-naukri-job.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/run-naukri-job.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/execution.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/execution.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/ui/NaukriProfileUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/ui/NaukriProfileUpdate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

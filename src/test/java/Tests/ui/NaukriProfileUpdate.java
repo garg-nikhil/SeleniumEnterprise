@@ -14,7 +14,7 @@ import java.time.Duration;
 public class NaukriProfileUpdate extends BaseTests {
     WebDriver driver;
 
-    NaukriProfileUpdate(){
+    public NaukriProfileUpdate(){
         this.driver = DriverManager.getDriver();
     }
 

@@ -323,3 +323,5 @@ java.lang.NullPointerException: Cannot invoke "org.testng.asserts.SoftAssert.ass
 2025-06-11 10:49:41 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\src\test\resources\testSuites\NaukriUpdate.xml
 
+2025-06-11 11:19:23 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-11 11:19:23 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
