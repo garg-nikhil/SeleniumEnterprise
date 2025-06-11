@@ -4,6 +4,7 @@ import driver.DriverManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.asserts.SoftAssert;
@@ -18,7 +19,8 @@ public class BaseTests {
 
   @BeforeClass
   public void setup() {
-    driver = DriverManager.getDriver();
+    driver = new ChromeDriver();
+    //driver = DriverManager.getDriver();
   }
 
   @AfterClass
