@@ -26,9 +26,9 @@ public class HomePageTests extends BaseTests {
     SoftAssert softAssert = new SoftAssert();
     WebDriver driver;
 
-    public HomePageTests(){
-        this.driver = DriverManager.getDriver();
-    }
+//    public HomePageTests(){
+//        this.driver = DriverManager.getDriver();
+//    }
 
    // @Test
     public void verifyActionsOnHomePage(){
