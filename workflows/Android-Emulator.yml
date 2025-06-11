@@ -1,0 +1,11 @@
+version: '3'
+services:
+  android-emulator:
+    image: budtmo/docker-android-x86-11.0
+    ports:
+      - "5554:5554"
+      - "5555:5555"
+    privileged: true
+    environment:
+      - DEVICE="Nexus 5"
+      - EMULATOR_PARAMS="-no-window -gpu swiftshader_indirect"
