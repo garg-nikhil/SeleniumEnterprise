@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d526bcef-ede0-4b95-badd-9b78c9edb406" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/anomaly_detection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AI/POC/Healenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AI/POC/Healnium-server.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AI/POC/OpenAiTestDataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AI/POC/init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/healenium.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/infra/db/sql/init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/infra/docker-compose-HealniumServerWeb.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/execution.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/execution.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AI/POC/OpenAiTestDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AI/POC/OpenAiTestDataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/infra/logs/healenium-proxy.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/infra/logs/healenium-proxy.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

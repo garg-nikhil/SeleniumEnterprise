@@ -7,3 +7,16 @@
 2025-06-14 07:40:00.572  INFO 1 - [       main] rvletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4127 ms 
 2025-06-14 07:40:02.197  INFO 1 - [       main] o.s.b.w.e.t.TomcatWebServer      : Tomcat started on port 8085 (http) with context path '' 
 2025-06-14 07:40:02.264  INFO 1 - [       main] .e.h.h.HealeniumProxyApplication : Started HealeniumProxyApplication in 9.956 seconds (process running for 17.736) 
+2025-06-14 08:31:08.689  INFO 1 - [8085-exec-1] o.a.c.c.C.[.[localhost].[/]      : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2025-06-14 08:31:08.727  INFO 1 - [8085-exec-1] o.s.w.s.DispatcherServlet        : Initializing Servlet 'dispatcherServlet' 
+2025-06-14 08:31:08.796  INFO 1 - [8085-exec-1] o.s.w.s.DispatcherServlet        : Completed initialization in 67 ms 
+2025-06-14 08:31:08.924 DEBUG 1 - [8085-exec-1] healenium                        : [Request Handler] Selenium Request URI: / 
+2025-06-14 08:31:08.936  WARN 1 - [8085-exec-1] healenium                        : [Proxy] Using default Selenium by URL: http://selenium-hub:4444/wd/hub 
+2025-06-14 08:31:09.579 DEBUG 1 - [8085-exec-1] healenium                        : [Proxy] Selenium server request: GET, http://selenium-hub:4444/wd/hub/, org.openqa.selenium.remote.http.Contents$$Lambda$912/0x00007f9e202dd000@33771da3 
+2025-06-14 08:31:09.694 DEBUG 1 - [8085-exec-1] healenium                        : [Proxy] Selenium server response: {\n   "value": {\n     "message": "Unable to find handler for (GET) \u002fwd\u002fhub\u002f",\n     "error": "unknown command",\n     "stacktrace": ""\n   }\n } 
+2025-06-14 08:31:09.696 DEBUG 1 - [8085-exec-1] healenium                        : [Request Handler] Response data: {\n   "value": {\n     "message": "Unable to find handler for (GET) \u002fwd\u002fhub\u002f",\n     "error": "unknown command",\n     "stacktrace": ""\n   }\n } 
+2025-06-14 08:31:09.751 DEBUG 1 - [8085-exec-2] healenium                        : [Request Handler] Selenium Request URI: /favicon.ico 
+2025-06-14 08:31:09.752  WARN 1 - [8085-exec-2] healenium                        : [Proxy] Using default Selenium by URL: http://selenium-hub:4444/wd/hub 
+2025-06-14 08:31:09.758 DEBUG 1 - [8085-exec-2] healenium                        : [Proxy] Selenium server request: GET, http://selenium-hub:4444/wd/hub/favicon.ico, org.openqa.selenium.remote.http.Contents$$Lambda$912/0x00007f9e202dd000@d07760c 
+2025-06-14 08:31:09.771 DEBUG 1 - [8085-exec-2] healenium                        : [Proxy] Selenium server response: {\n   "value": {\n     "message": "Unable to find handler for (GET) \u002fwd\u002fhub\u002ffavicon.ico",\n     "error": "unknown command",\n     "stacktrace": ""\n   }\n } 
+2025-06-14 08:31:09.772 DEBUG 1 - [8085-exec-2] healenium                        : [Request Handler] Response data: {\n   "value": {\n     "message": "Unable to find handler for (GET) \u002fwd\u002fhub\u002ffavicon.ico",\n     "error": "unknown command",\n     "stacktrace": ""\n   }\n } 

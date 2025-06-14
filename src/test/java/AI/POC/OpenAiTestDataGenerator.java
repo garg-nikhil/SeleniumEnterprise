@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class OpenAiTestDataGenerator {
 
-        private static final String OPENAI_API_KEY = "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";
+        private static final String OPENAI_API_KEY = "";
 
         public static String generateTestData(String prompt) throws IOException {
             OkHttpClient client = new OkHttpClient();
