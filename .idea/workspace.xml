@@ -4,12 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d526bcef-ede0-4b95-badd-9b78c9edb406" name="Changes" comment="" />
+    <list default="true" id="d526bcef-ede0-4b95-badd-9b78c9edb406" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/anomaly_detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AI/POC/Healenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AI/POC/Healnium-server.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AI/POC/OpenAiTestDataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AI/POC/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/healenium.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/infra/db/sql/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/infra/docker-compose-HealniumServerWeb.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/execution.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/execution.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;garg-nikhil&quot;
+  }
+}</component>
   <component name="GitToolBoxStore">
     <option name="recentBranches">
       <RecentBranches>
@@ -35,35 +64,143 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/garg-nikhil/SeleniumEnterprise&quot;,
+    &quot;accountId&quot;: &quot;f2a7a6aa-3c19-42bf-ac31-a8658fdac8a0&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2yME2zYCKEBN3oHI2SfjXw1jygF" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.OpenAiTestDataGenerator.executor": "Run",
+    "Docker.POC/Healnium-server.yml.heal-server: Compose Deployment.executor": "Run",
+    "Docker.POC/Healnium-server.yml.healenium: Compose Deployment.executor": "Run",
+    "Docker.POC/Healnium-server.yml.ports: Compose Deployment.executor": "Run",
+    "Docker.POC/Healnium-server.yml: Compose Deployment.executor": "Run",
+    "Docker.infra/docker-compose-HealniumServerWeb.yml: Compose Deployment.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "TestNG.C:/Automation/Projects/SeleniumFrameworkDesign/SampleAutomationEndToEnd/NaukriUpdate.xml.executor": "Run",
+    "TestNG.Healenium.setup.executor": "Run",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Automation/Projects/SeleniumFrameworkDesign/SampleAutomationEndToEnd"
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Automation/Projects/SeleniumFrameworkDesign/SampleAutomationEndToEnd/src/test/resources/infra/db/sql",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.24707031",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\src\test\resources\infra\db\sql" />
+      <recent name="C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\src\test\java\AI\POC" />
       <recent name="C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\src\test\resources\infra" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Healenium.setup">
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Automation/Projects/SeleniumFrameworkDesign/SampleAutomationEndToEnd/NaukriUpdate.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EnterpriseSeleniumAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/NaukriUpdate.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Healenium.setup" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EnterpriseSeleniumAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AI.POC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AI.POC" />
+      <option name="MAIN_CLASS_NAME" value="AI.POC.Healenium" />
+      <option name="METHOD_NAME" value="setup" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="POC/Healnium-server.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="src/test/java/AI/POC/Healnium-server.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="POC/Healnium-server.yml.ports: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="ports" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="src/test/java/AI/POC/Healnium-server.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="infra/docker-compose-HealniumServerWeb.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="src/test/resources/infra/docker-compose-HealniumServerWeb.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Healenium.setup" />
+        <item itemvalue="Docker.POC/Healnium-server.yml.ports: Compose Deployment" />
+        <item itemvalue="TestNG.C:/Automation/Projects/SeleniumFrameworkDesign/SampleAutomationEndToEnd/NaukriUpdate.xml" />
+        <item itemvalue="Docker.infra/docker-compose-HealniumServerWeb.yml: Compose Deployment" />
+        <item itemvalue="Docker.POC/Healnium-server.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d526bcef-ede0-4b95-badd-9b78c9edb406" name="Changes" comment="" />
+      <created>1749635840406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749635840406</updated>
+    </task>
     <servers />
   </component>
 </project>

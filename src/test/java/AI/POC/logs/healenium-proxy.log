@@ -1,0 +1,9 @@
+2025-06-14 07:17:56.928  INFO 1 - [       main] .e.h.h.HealeniumProxyApplication : Starting HealeniumProxyApplication v1.4.0 using Java 17.0.10 with PID 1 (/hlm-proxy.jar started by root in /) 
+2025-06-14 07:17:57.016  INFO 1 - [       main] .e.h.h.HealeniumProxyApplication : No active profile set, falling back to 1 default profile: "default" 
+2025-06-14 07:18:00.832  INFO 1 - [       main] o.s.b.w.e.t.TomcatWebServer      : Tomcat initialized with port 8085 (http) 
+2025-06-14 07:18:00.892  INFO 1 - [       main] o.a.c.core.StandardService       : Starting service [Tomcat] 
+2025-06-14 07:18:00.896  INFO 1 - [       main] o.a.c.core.StandardEngine        : Starting Servlet engine: [Apache Tomcat/10.1.18] 
+2025-06-14 07:18:01.095  INFO 1 - [       main] o.a.c.c.C.[.[localhost].[/]      : Initializing Spring embedded WebApplicationContext 
+2025-06-14 07:18:01.097  INFO 1 - [       main] rvletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3732 ms 
+2025-06-14 07:18:03.822  INFO 1 - [       main] o.s.b.w.e.t.TomcatWebServer      : Tomcat started on port 8085 (http) with context path '' 
+2025-06-14 07:18:03.992  INFO 1 - [       main] .e.h.h.HealeniumProxyApplication : Started HealeniumProxyApplication in 9.592 seconds (process running for 13.749) 

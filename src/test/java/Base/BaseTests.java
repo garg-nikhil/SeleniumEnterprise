@@ -19,9 +19,10 @@ public class BaseTests {
 
   public BaseTests() {}
 
-  @BeforeClass
+  //@BeforeClass
   public void setup() {
     WebDriverManager.chromedriver().setup();
+/*
     ChromeOptions options = new ChromeOptions();
     options.addArguments("--no-sandbox");
     options.addArguments("--disable-dev-shm-usage");
@@ -30,13 +31,14 @@ public class BaseTests {
 
     // ✅ Fix: Use unique user-data-dir to avoid profile conflict
     options.addArguments("--user-data-dir=/tmp/profile-" + System.currentTimeMillis());
+*/
 
-    driver = new ChromeDriver(options);
+    driver = new ChromeDriver();
     //DriverManager.setDriver(driver);
     //driver = DriverManager.getDriver();
   }
 
-  @AfterClass
+  //@AfterClass
   public void tearDown() {
     DriverManager.quitDriver();
   }
