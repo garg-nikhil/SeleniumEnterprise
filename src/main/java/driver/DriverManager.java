@@ -1,9 +1,14 @@
 package driver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.Duration;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import utils.ConfigReader;
 
 public class DriverManager {
@@ -31,6 +36,16 @@ public class DriverManager {
     //            throw new RuntimeException(e);
     //        }
     return driver1;
+  }
+
+  public void remoteWebDriverDemo() throws MalformedURLException {
+    DesiredCapabilities caps = new DesiredCapabilities();
+    caps.setBrowserName("chrome");
+    WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), caps);
+    driver.get("https://demoqa.com/");
+    driver.findElement(By.xpath("//*[@alt='Selenium Online Training']"));
+    System.out.println(driver.getTitle());
+    System.out.println(driver.getCurrentUrl());
   }
 
   public static void quitDriver() {

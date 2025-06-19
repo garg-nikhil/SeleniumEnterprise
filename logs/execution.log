@@ -477,3 +477,19 @@ Session ID: bc23f52b757e2a5d3816ccd8e6ce0c92
 Make sure that: 
 - There is selector on the page http://localhost:7878/healenium/selectors/ and type: single, if not then you have to run successful tests.
 - Your locator was changed on the page and not in code.
+2025-06-15 11:29:27 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-06-15 11:30:05 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\nikhi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-06-17 10:09:16 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\NaukriUpdate.xml
+
+2025-06-17 10:09:18 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-17 10:09:18 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-17 10:09:33 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\NaukriUpdate.xml
+
+2025-06-17 10:09:34 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
+2025-06-17 10:09:34 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe

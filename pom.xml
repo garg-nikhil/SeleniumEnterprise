@@ -30,6 +30,14 @@
     <org.apache.commons.version>2.10.1</org.apache.commons.version>
     <org.apache.poi.version>5.2.3</org.apache.poi.version>
     <org.apache.logging.log4j.version>2.20.0</org.apache.logging.log4j.version>
+    <checkstyle.version>10.9.0</checkstyle.version>
+    <spotless.version>2.32.0</spotless.version>
+    <pmd.version>3.21.0</pmd.version>
+    <owasp.dependency.check.version>8.4.3</owasp.dependency.check.version>
+    <guice.version>5.1.0</guice.version>
+    <healenium.version>3.5.6</healenium.version>
+    <com.applitools.eyes.version>5.76.0</com.applitools.eyes.version>
+    <com.squareup.okhttp3.version>4.12.0</com.squareup.okhttp3.version>
   </properties>
 
   <dependencies>
@@ -38,26 +46,26 @@
     <dependency>
       <groupId>com.epam.healenium</groupId>
       <artifactId>healenium-web</artifactId>
-      <version>3.5.6</version>
+      <version>${healenium.version} </version>
     </dependency>
     <dependency>
       <groupId>com.google.inject</groupId>
       <artifactId>guice</artifactId>
-      <version>5.1.0</version>
+      <version>${guice.version}</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/com.applitools/eyes-selenium-java5 -->
     <dependency>
       <groupId>com.applitools</groupId>
       <artifactId>eyes-selenium-java5</artifactId>
-      <version>5.76.0</version>
+      <version>${com.applitools.eyes.version}</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
     <dependency>
       <groupId>com.squareup.okhttp3</groupId>
       <artifactId>okhttp</artifactId>
-      <version>4.12.0</version>
+      <version>${com.squareup.okhttp3.version}</version>
     </dependency>
     <!-- Core Log4j2 -->
     <dependency>
@@ -221,26 +229,32 @@
 <!--        </configuration>-->
 <!--      </plugin>-->
 
-<!--      &lt;!&ndash; Spotless &ndash;&gt;-->
-<!--      <plugin>-->
-<!--        <groupId>com.diffplug.spotless</groupId>-->
-<!--        <artifactId>spotless-maven-plugin</artifactId>-->
-<!--        <version>2.32.0</version>-->
-<!--        <executions>-->
-<!--          <execution>-->
-<!--            <goals>-->
-<!--              <goal>check</goal>-->
-<!--              <goal>apply</goal>-->
-<!--            </goals>-->
-<!--          </execution>-->
-<!--        </executions>-->
-<!--        <configuration>-->
-<!--          <java>-->
-<!--            <googleJavaFormat />-->
-<!--            <removeUnusedImports />-->
-<!--          </java>-->
-<!--        </configuration>-->
-<!--      </plugin>-->
+      <!-- Spotless -->
+      <plugin>
+        <groupId>com.diffplug.spotless</groupId>
+        <artifactId>spotless-maven-plugin</artifactId>
+        <version>${spotless.version}</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>check</goal>
+              <goal>apply</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <java>
+            <includes>
+              <include>src/main/java/**/*.java</include> <!-- Check application code -->
+              <include>src/test/java/**/*.java</include> <!-- Check application tests code -->
+            </includes>
+            <googleJavaFormat>
+              <version>1.15.0</version>
+              <style>GOOGLE</style>
+            </googleJavaFormat>
+          </java>
+        </configuration>
+      </plugin>
 
 <!--      &lt;!&ndash; PMD &ndash;&gt;-->
 <!--      <plugin>-->

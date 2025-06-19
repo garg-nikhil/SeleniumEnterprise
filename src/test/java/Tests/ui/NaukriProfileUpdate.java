@@ -13,7 +13,7 @@ public class NaukriProfileUpdate extends BaseTests {
   WebDriver driver;
 
   public NaukriProfileUpdate() {
-    //this.driver = DriverManager.getDriver();
+    // this.driver = DriverManager.getDriver();
   }
 
   @Test
