@@ -493,3 +493,30 @@ Make sure that:
 
 2025-06-17 10:09:34 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.70 (resolved driver for Chrome 137)
 2025-06-17 10:09:34 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-19 11:23:18 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\NaukriUpdate.xml
+
+2025-06-19 11:23:19 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-06-19 11:23:19 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.119/win64/chromedriver-win64.zip
+2025-06-19 11:23:23 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-06-19 11:23:23 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-19 11:25:59 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\NaukriUpdate.xml
+
+2025-06-19 11:25:59 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-06-19 11:25:59 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-19 11:27:36 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\NaukriUpdate.xml
+
+2025-06-19 11:27:37 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-06-19 11:27:37 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-19 12:07:41 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\NaukriUpdate.xml
+
+2025-06-19 12:07:41 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-06-19 12:07:41 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-19 12:09:39 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\NaukriUpdate.xml
+
+2025-06-19 12:09:39 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-06-19 12:09:39 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nikhi\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe

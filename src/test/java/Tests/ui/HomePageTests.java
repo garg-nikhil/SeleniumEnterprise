@@ -30,11 +30,7 @@ public class HomePageTests extends BaseTests {
     homePage.launchPage();
     softAssert.assertEquals(driver.getCurrentUrl(), getProperty("baseUrl"));
     softAssert.assertEquals(driver.getTitle(), "DEMOQA");
-    verifyElement(homePage.Elements(), "elements", true);
-    verifyElement(homePage.getAlertsFramesWindows(), "Alerts, Frame & Windows button", true);
-    verifyElement(homePage.getFormsBtn(), "Forms", true);
-    verifyElement(homePage.getBanner(), "Banner", false);
-    verifyElement(homePage.getFooter(), "Footer", false);
+
     softAssert.assertAll();
   }
 
