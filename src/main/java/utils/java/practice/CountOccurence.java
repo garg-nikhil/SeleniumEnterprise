@@ -1,4 +1,4 @@
-package utils;
+package utils.java.practice;
 
 import java.util.HashMap;
 import java.util.Map;

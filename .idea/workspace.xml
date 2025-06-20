@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d526bcef-ede0-4b95-badd-9b78c9edb406" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/NaukriPortal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/EncryptRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/PasswordEncryptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/Android-Emulator.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/Healnium-server.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/Influx-Grafana_Setup.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/docker-compose-HealniumServerWeb.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/CapabilityFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/execution.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/execution.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/ui/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/ui/HomePageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/ui/NaukriProfileUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/ui/NaukriProfileUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/CountOccurence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/java/practice/CountOccurence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PracticeJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/java/practice/PracticeJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +69,9 @@
     &quot;accountId&quot;: &quot;f2a7a6aa-3c19-42bf-ac31-a8658fdac8a0&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -97,14 +100,16 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Automation/Projects/SeleniumFrameworkDesign/SampleAutomationEndToEnd/src/test/resources/infra/db/sql&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Automation/Projects/SeleniumFrameworkDesign/SampleAutomationEndToEnd/.github/workflows&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.24707031&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\.github\workflows" />
       <recent name="C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\src\test\resources\infra\db\sql" />
       <recent name="C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd\src\test\java\AI\POC" />
       <recent name="C:\Automation\Projects\SeleniumFrameworkDesign\SampleAutomationEndToEnd" />
@@ -119,7 +124,7 @@
       <module name="EnterpriseSeleniumAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="utils.java.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

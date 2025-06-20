@@ -1,7 +1,6 @@
-package utils;
+package utils.java.practice;
 
 import java.util.Arrays;
-import org.checkerframework.checker.units.qual.min;
 
 public class PracticeJava {
 
